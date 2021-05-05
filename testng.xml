@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="IsinOlsun-Android-Test-Suite" parallel="tests" thread-count="2">
+
+    <test name="emulator-5554">
+        <parameter name="udid" value="emulator-5554" />
+        <parameter name="platformVersion" value="11" />
+        <classes>
+            <class name="tests.candidate.ApplyToJob" />
+        </classes>
+    </test>
+
+    <test name="emulator-5556">
+        <parameter name="udid" value="emulator-5556" />
+        <parameter name="platformVersion" value="11" />
+        <classes>
+            <class name="tests.candidate.ApplyToJob" />
+        </classes>
+    </test>
+
+</suite>
