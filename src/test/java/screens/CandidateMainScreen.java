@@ -7,18 +7,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class CandidateMainScreen extends BaseScreen {
-
     public CandidateMainScreen(AndroidDriver<MobileElement> driver) {
         super(driver);
     }
 
-    //Mobile Elements
+    /**Mobile Elements*/
     By allowWhenUsingBy = By.id("com.android.permissioncontroller:id/permission_allow_foreground_only_button");
-    By jobsBy               = By.id("com.isinolsun.app:id/rootRelativeView");
-    By profileIconBy        = By.xpath("//android.widget.LinearLayout[4]/android.widget.ImageView");
+    By jobsBy           = By.id("com.isinolsun.app:id/rootRelativeView");
+    By profileIconBy    = By.xpath("//android.widget.LinearLayout[4]/android.widget.ImageView");
 
+    /**Actions*/
     public void allowNotification() {
-        //Notification Allow
         if (wait.until(ExpectedConditions.visibilityOfElementLocated(allowWhenUsingBy)).isDisplayed()) {
             wait.until(ExpectedConditions.visibilityOfElementLocated(allowWhenUsingBy)).click();
         }
@@ -27,11 +26,6 @@ public class CandidateMainScreen extends BaseScreen {
     @SneakyThrows
     public void clickToJob() {
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(jobsBy)).get(1).click();
-        Thread.sleep(6000);
+        Thread.sleep(4000); //Just Wait for a while
     }
-
-    public void clickToProfile() {
-        waitAndClick(profileIconBy);
-    }
-
 }
