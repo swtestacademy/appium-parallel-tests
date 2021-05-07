@@ -2,8 +2,12 @@
 Appium parallel tests
 **Tutorial Pages**: 
 
-For Emulators: https://www.swtestacademy.com/appium-parallel-tests-on-multiple-emulators/
+http://www.swtestacademy.com/appium-tutorial/
 
-For Real Devices: https://www.swtestacademy.com/appium-paralllel-testing/
+https://www.swtestacademy.com/appium-parallel-tests-on-multiple-emulators/
+
+http://www.swtestacademy.com/appium-parallel-tests/
+
+https://www.swtestacademy.com/appium-cucumber-parallel-test-execution/
 
 **Please check the branches.**
