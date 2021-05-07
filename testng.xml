@@ -7,7 +7,7 @@
         <parameter name="udid" value="emulator-5554"/>
         <parameter name="platformVersion" value="11"/>
         <classes>
-            <class name="tests.candidate.UserCanSeeJobsDetails"/>
+            <class name="tests.candidate.CandidateCanSeeJobsDetails"/>
         </classes>
     </test>
 
@@ -15,7 +15,7 @@
         <parameter name="udid" value="emulator-5556"/>
         <parameter name="platformVersion" value="11"/>
         <classes>
-            <class name="tests.candidate.UserCanSeeJobsDetails"/>
+            <class name="tests.candidate.CandidateCanSeeJobsDetails"/>
         </classes>
     </test>
 
