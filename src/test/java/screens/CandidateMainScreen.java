@@ -24,8 +24,8 @@ public class CandidateMainScreen extends BaseScreen {
     }
 
     @SneakyThrows
-    public void clickToJob() {
-        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(jobsBy)).get(1).click();
+    public void clickToJob(int index) {
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(jobsBy)).get(index).click();
         Thread.sleep(4000); //Just Wait for a while
     }
 }

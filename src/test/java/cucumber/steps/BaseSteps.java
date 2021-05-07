@@ -1,4 +1,4 @@
-package steps;
+package cucumber.steps;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -13,7 +13,7 @@ public class BaseSteps {
     protected CandidateMainScreen candidateMainScreen;
     protected JobScreen           jobScreen;
 
-    public BaseSteps(AndroidDriver<MobileElement> driver) {
+    public void setupScreens(AndroidDriver<MobileElement> driver) {
         splashScreen = new SplashScreen(driver);
         selectionScreen = new SelectionScreen(driver);
         candidateMainScreen = new CandidateMainScreen(driver);
