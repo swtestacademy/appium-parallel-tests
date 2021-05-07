@@ -20,6 +20,11 @@ public class JobDetailsSteps extends BaseSteps {
         return this;
     }
 
+    public JobDetailsSteps whenIDoMobileActionsAndClickToJob() {
+        candidateMainScreen.swipeDownAndClickToJob();
+        return this;
+    }
+
     public JobDetailsSteps thenIShouldSeeJobDetails() {
         jobScreen.assertToolBarTitleIsExpected();
         return this;

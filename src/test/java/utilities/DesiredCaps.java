@@ -2,7 +2,7 @@ package utilities;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class DesiredCapabilitiesUtil {
+public class DesiredCaps {
     public DesiredCapabilities getDesiredCapabilities(String udid, String platformVersion) {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("udid", udid);
