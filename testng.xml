@@ -11,20 +11,11 @@
         </classes>
     </test>
 
-<!--    <test name="emulator-5554">-->
-<!--        <parameter name="udid" value="emulator-5554"/>-->
-<!--        <parameter name="platformVersion" value="11"/>-->
-<!--        <classes>-->
-<!--            <class name="tests.candidate.CandidateCanSeeJobsDetails"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="emulator-5556">-->
-<!--        <parameter name="udid" value="emulator-5556"/>-->
-<!--        <parameter name="platformVersion" value="11"/>-->
-<!--        <classes>-->
-<!--            <class name="tests.candidate.CandidateCanSeeJobsDetails"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
+    <test name="emulator-5556">
+        <parameter name="udid" value="emulator-5556"/>
+        <parameter name="platformVersion" value="11"/>
+        <classes>
+            <class name="cucumber.tests.TestRunner"/>
+        </classes>
+    </test>
 </suite>
