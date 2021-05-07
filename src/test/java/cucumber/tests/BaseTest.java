@@ -24,5 +24,4 @@ public class BaseTest {
     public synchronized void teardown() {
         ThreadLocalDriver.getTLDriver().quit();
     }
-
 }
