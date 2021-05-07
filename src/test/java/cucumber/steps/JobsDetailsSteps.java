@@ -10,7 +10,6 @@ public class JobsDetailsSteps extends BaseSteps {
 
     @Before
     public void setupLoginSteps() {
-        System.out.println("Cucumber Before-login-test-cucumber");
         setupScreens(ThreadLocalDriver.getTLDriver());
     }
 
