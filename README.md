@@ -10,4 +10,6 @@ http://www.swtestacademy.com/appium-parallel-tests/
 
 https://www.swtestacademy.com/appium-cucumber-parallel-test-execution/
 
+https://www.swtestacademy.com/appium-mobile-actions-swipe-tap-press/
+
 **Please check the branches.**
